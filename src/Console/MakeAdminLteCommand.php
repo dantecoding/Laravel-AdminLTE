@@ -6,6 +6,7 @@ use Illuminate\Auth\Console\AuthMakeCommand;
 
 class MakeAdminLteCommand extends AuthMakeCommand
 {
+    
     protected $signature = 'make:adminlte {--views : Only scaffold the authentication views}{--force : Overwrite existing views by default}';
 
     protected $description = 'Scaffold basic AdminLTE login and registration views and routes';
